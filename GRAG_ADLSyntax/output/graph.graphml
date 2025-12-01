@@ -1,0 +1,100 @@
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <graph edgedefault="undirected">
+    <node id="WRIGHT#" />
+    <node id="PAT (PROCESS ANALYSIS TOOLKIT)" />
+    <node id="COMPONENT &amp; CONNECTOR (C&amp;C) PARADIGM" />
+    <node id="COMMUNICATING SEQUENTIAL PROCESSES (CSP)" />
+    <node id="CSCONNECTOR" />
+    <node id="CLIENT" />
+    <node id="SERVER" />
+    <node id="ESCONNECTOR" />
+    <node id="EVENTPUBLISHER" />
+    <node id="EVENTSTORE" />
+    <node id="EVENTSUBSCRIBER" />
+    <node id="EVENTWIRE" />
+    <node id="A.P1" />
+    <node id="B.P2" />
+    <node id="C.P3" />
+    <node id="PASSENGERUI" />
+    <node id="CALLWIRE" />
+    <node id="RIDE CALLING" />
+    <node id="DRIVERUI" />
+    <node id="ASSIGN" />
+    <node id="WRIGHT# ADL" />
+    <node id="TRIPMGMT" />
+    <node id="PSCONNECTOR" />
+    <node id="PAT" />
+    <node id="RIDE SHARING SYSTEM" />
+    <node id="DRIVERRECORD" />
+    <node id="PAYMENT" />
+    <node id="BILLINGGATEWAY" />
+    <node id="SIGNON" />
+    <node id="USERDB" />
+    <node id="ASSIGNLOG" />
+    <node id="DRIVERCOMMANDLOG" />
+    <node id="QRCONNECTOR" />
+    <node id="WRCONNECTOR" />
+    <node id="RECONNECTOR" />
+    <node id="CRCONNECTOR" />
+    <edge source="WRIGHT#" target="PAT (PROCESS ANALYSIS TOOLKIT)" />
+    <edge source="WRIGHT#" target="COMPONENT &amp; CONNECTOR (C&amp;C) PARADIGM" />
+    <edge source="WRIGHT#" target="COMMUNICATING SEQUENTIAL PROCESSES (CSP)" />
+    <edge source="CSCONNECTOR" target="CLIENT" />
+    <edge source="CSCONNECTOR" target="SERVER" />
+    <edge source="CSCONNECTOR" target="CALLWIRE" />
+    <edge source="CSCONNECTOR" target="WRIGHT# ADL" />
+    <edge source="CSCONNECTOR" target="PASSENGERUI" />
+    <edge source="CSCONNECTOR" target="TRIPMGMT" />
+    <edge source="CSCONNECTOR" target="SIGNON" />
+    <edge source="CLIENT" target="SERVER" />
+    <edge source="ESCONNECTOR" target="EVENTPUBLISHER" />
+    <edge source="ESCONNECTOR" target="EVENTSTORE" />
+    <edge source="ESCONNECTOR" target="EVENTSUBSCRIBER" />
+    <edge source="ESCONNECTOR" target="DRIVERUI" />
+    <edge source="ESCONNECTOR" target="ASSIGNLOG" />
+    <edge source="EVENTPUBLISHER" target="EVENTSTORE" />
+    <edge source="EVENTSTORE" target="EVENTSUBSCRIBER" />
+    <edge source="EVENTWIRE" target="A.P1" />
+    <edge source="EVENTWIRE" target="B.P2" />
+    <edge source="EVENTWIRE" target="C.P3" />
+    <edge source="PASSENGERUI" target="CALLWIRE" />
+    <edge source="PASSENGERUI" target="RIDE CALLING" />
+    <edge source="PASSENGERUI" target="RIDE SHARING SYSTEM" />
+    <edge source="PASSENGERUI" target="TRIPMGMT" />
+    <edge source="PASSENGERUI" target="PAYMENT" />
+    <edge source="PASSENGERUI" target="SIGNON" />
+    <edge source="PASSENGERUI" target="USERDB" />
+    <edge source="CALLWIRE" target="TRIPMGMT" />
+    <edge source="RIDE CALLING" target="DRIVERUI" />
+    <edge source="RIDE CALLING" target="WRIGHT# ADL" />
+    <edge source="RIDE CALLING" target="TRIPMGMT" />
+    <edge source="DRIVERUI" target="ASSIGN" />
+    <edge source="DRIVERUI" target="RIDE SHARING SYSTEM" />
+    <edge source="DRIVERUI" target="ASSIGNLOG" />
+    <edge source="DRIVERUI" target="DRIVERRECORD" />
+    <edge source="DRIVERUI" target="TRIPMGMT" />
+    <edge source="DRIVERUI" target="DRIVERCOMMANDLOG" />
+    <edge source="ASSIGN" target="TRIPMGMT" />
+    <edge source="ASSIGN" target="PSCONNECTOR" />
+    <edge source="WRIGHT# ADL" target="PSCONNECTOR" />
+    <edge source="WRIGHT# ADL" target="PAT" />
+    <edge source="TRIPMGMT" target="RIDE SHARING SYSTEM" />
+    <edge source="TRIPMGMT" target="ASSIGNLOG" />
+    <edge source="RIDE SHARING SYSTEM" target="DRIVERRECORD" />
+    <edge source="RIDE SHARING SYSTEM" target="PAYMENT" />
+    <edge source="RIDE SHARING SYSTEM" target="BILLINGGATEWAY" />
+    <edge source="RIDE SHARING SYSTEM" target="SIGNON" />
+    <edge source="RIDE SHARING SYSTEM" target="USERDB" />
+    <edge source="RIDE SHARING SYSTEM" target="ASSIGNLOG" />
+    <edge source="RIDE SHARING SYSTEM" target="DRIVERCOMMANDLOG" />
+    <edge source="DRIVERRECORD" target="QRCONNECTOR" />
+    <edge source="DRIVERRECORD" target="DRIVERCOMMANDLOG" />
+    <edge source="DRIVERRECORD" target="ASSIGNLOG" />
+    <edge source="PAYMENT" target="WRCONNECTOR" />
+    <edge source="PAYMENT" target="BILLINGGATEWAY" />
+    <edge source="BILLINGGATEWAY" target="RECONNECTOR" />
+    <edge source="SIGNON" target="USERDB" />
+    <edge source="USERDB" target="RECONNECTOR" />
+    <edge source="DRIVERCOMMANDLOG" target="CRCONNECTOR" />
+  </graph>
+</graphml>
