@@ -20,23 +20,16 @@ This project implements a multi-agent approach to software architecture refactor
     ```
 
 ## Project Structure
-```
-Multiagent_Refactoring/
-├── Baselines/                  # Baselines
-│   
-├── GRAG_ADL_Syntax/            # Microsoft GraphRAG
-│   ├── input/                  # Input raw documentation for Knowlegde Graph Generation
-│   ├── output/                 # Generated Knowlegde Graph contents
-│   ├── KnowLedgeGraph.gephi    # Knowlegde Graph
-│
-├── Helpers/                    # Core functions
-│   ├── refactoring.py          # Tool core implementation
-│   ├── divide_adl.py           # Design partitioning strategy
-│
-├── Refactoring_data.xlsx       # List of refactoring tasks (ADL files and requirements)
-│
-└── parallelrun_refactoring.py  # The tool with Exploration-Selection Strategys
-```
+
+- **Baselines/**: Baselines Results
+- **Evaluation/**: Experimental Results of Our Approach
+- **Refactoring_data.xlsx**: Experimental Dataset (List of refactoring tasks)
+- **GRAG_ADL_Syntax/**: Microsoft GraphRAG
+  - **input/**: Input raw documentation for Knowledge Graph Generation
+  - **output/**: Generated Knowledge Graph contents
+  - **KnowLedgeGraph.gephi**: Knowledge Graph
+- **Helpers/**: Core functions
+- **parallelrun_refactoring.py**: The tool with Exploration-Selection Strategy
 
 ## Usage
 
